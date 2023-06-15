@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    display: inline;
+}
+.container {
+    width: 1366px;
+    margin: 0 1%;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.articles article {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: blueviolet;
+}
+#esportes h2 {
+    color: red;
+}
+#economia h2 {
+    color: green;
+}
+#tecnologia h2 {
+    color: blue;
+}
+#entretenimento h2 {
+    color: goldenrod;
+}
+.data {
+    color: grey;
+}
+
