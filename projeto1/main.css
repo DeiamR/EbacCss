@@ -7,7 +7,7 @@ header li {
     display: inline;
 }
 .container {
-    width: 1366px;
+    width: auto;
     margin: 0 1%;
 }
 .articles {
@@ -22,41 +22,60 @@ header li {
 }
 .articles article {
     width: 30%;
+    height: 450px;
 }
 
+.articles {
+    background-color: orangered;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container {
+    background-color: black;
+}
 
 
 h1 {
-    color: blueviolet;
+    color: whitesmoke;
+    height: 55px;
 }
+
+ul {
+    height: 20px;
+    line-height: 15px;
+}
+
+#esp {
+    color: red;
+}
+#eco {
+    color: green;
+}
+#tec {
+    color: blue;
+}
+#ent {
+    color: goldenrod;
+}
+
 #esportes h2 {
     color: red;
+    background-color: black;
 }
 #economia h2 {
     color: green;
+    background-color: black;
 }
 #tecnologia h2 {
     color: blue;
+    background-color: black;
 }
 #entretenimento h2 {
     color: goldenrod;
+    background-color: black;
 }
 .data {
     color: grey;
 }
-
+#zelda {
+    color: grey;
+}
